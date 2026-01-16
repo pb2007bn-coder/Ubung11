@@ -4,15 +4,7 @@ public class H3_main {
   
   public static void main(String[] args) {
     
-    int[] array = {5, 100, 2, 6, 8, 10, 9, 1, 3, 7, 4, 6, 7, 6, 7};
-    
-    System.out.println("Unsortiertes Array:");
-    printArray(array);
-    
-    int[] sortedArray = mergeSort(array);
-    
-    System.out.println("Sortiertes Array:");
-    printArray(sortedArray);
+   
   }
 
   public static int [] mergeSort(int [] array){
@@ -68,11 +60,6 @@ public class H3_main {
     return ende;
   }
   
-  private static void printArray(int[] array) {
-	    for (int i = 0; i < array.length; i++) {
-	        System.out.print(array[i] + " ");
-	    }
-	    System.out.println();
-	}
+ 
 }
     
